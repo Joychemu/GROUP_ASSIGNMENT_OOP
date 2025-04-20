@@ -1,3 +1,5 @@
+# pet.py
+
 class Pet:
     def __init__(self, name):
         self.name = name
@@ -44,13 +46,3 @@ class Pet:
                 print(f" - {trick}")
         else:
             print(f"{self.name} hasn't learned any tricks yet.")
-
-my_pet = Pet("german_shepherd")
-my_pet.get_status()
-my_pet.eat()
-my_pet.play()
-my_pet.sleep()
-my_pet.train("roll over")
-my_pet.train("sit")
-my_pet.show_tricks()
-my_pet.get_status()
