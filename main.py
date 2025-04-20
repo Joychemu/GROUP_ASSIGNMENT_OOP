@@ -1,3 +1,4 @@
+import pet
 def eat(self):
         self.hunger = max(0, self.hunger - 3)
         self.happiness = min(10, self.happiness + 1)
